@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useReducer } from 'react';
+import React, { FC } from 'react';
 import { useTheme } from '@react-navigation/native';
 
 import { Button, Column, Row, Text } from 'src/components';
@@ -25,7 +25,7 @@ const Home: FC = () => {
           onPress={() => {
             dispatch(increment());
           }}
-          text='PRESS ME'
+          text='Pressione em mim'
         />
       </Row>
     </Column>
